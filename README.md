@@ -12,7 +12,7 @@ verilen üç faydadan dolayı tercih edilir.
 ## Soru 2: DB Index nedir? Avantajları ve dezavantajları nelerdir?
 Veritabanında bir değer aratmak istenildiğinde veritabanın büyüklüğüne göre sorgu süresi uzamaktadır. Veritabanında fazla veri var ise çok fazla zaman kaybı yaratmaktadır. Baştan sona tek tek arama yapılmasını engellemek için   RDBMS’lerde de kullanılan Index’ler oluşturulur.
 <picture>
-    <img alt="UmlDiygram" src="https://s33162.pcdn.co/wp-content/uploads/2017/05/word-image-15.png">
+    <img alt="UmlDiygram" src="IndexImage.png">
 </picture>
 
 Fotoğrafta da görüldüğü gibi agaç yapısını tek tek dolaşarak aratması gerekecekti ancak index yapısı ile nesnelere daha hızlı ulaşma imkanı sağlanmaktadır. Aratma işlemi kolay olmaktadır ancak veritabanında bir değişiklik yapıldığı zaman index yapısını baştan oluşturmak gerekmektedir. Sistemin yapısında index yapısı gerekli ise kullanılmalıdır. aksi duruma gereksiz zaman kaybı olabilmektedir. Bu duruma veritabanındaki ekleme güncelleme işlemlerini en aza indirmekte çözüm olabilmektedir. 
